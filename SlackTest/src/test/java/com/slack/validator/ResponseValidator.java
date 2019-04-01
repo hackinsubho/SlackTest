@@ -21,9 +21,10 @@ public class ResponseValidator {
         ObjectMapper oMapper = new ObjectMapper();
         for(int i =0;i<list.size();i++){
         Map<String, String> map = oMapper.convertValue(list.get(i), Map.class);
-        if(id.equalsIgnoreCase(map.get("id")))
+        if(id.equalsIgnoreCase(map.get("id"))) {
             System.out.println("Renamed Channel is Present");
-        return;
+            return;
+        }
         }
         Assert.assertTrue(false,"Renamed Channel is not present");
     }
