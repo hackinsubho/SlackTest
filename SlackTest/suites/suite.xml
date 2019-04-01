@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test"  parallel="false">
+    <test name="Test Slack">
+        <groups>
+            <run>
+                <include name="BVT">
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.slack.test.SlackTesting"/>
+        </classes>
+    </test>
+</suite>
