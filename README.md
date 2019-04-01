@@ -10,5 +10,5 @@ Mention your AuthKey in **config.properties**
 
 * In **test** have your ***test scripts***
 
-* Suites can help you run ***selective group of cases***
+* ***Suites*** can help you run ***selective group of cases***
 
